@@ -1,3 +1,88 @@
+#Screenshot 
+![Product list Page](https://github.com/AvinashChandavar7/Product_Showcase/assets/122362595/3de9e669-5866-4527-b163-da6b16902520)
+
+
+![Product list details ](https://github.com/AvinashChandavar7/Product_Showcase/assets/122362595/02a25398-e37c-4883-bf88-d852d82c65ec)
+
+
+
+![Product](https://github.com/AvinashChandavar7/Product_Showcase/assets/122362595/8c61cefb-b73a-466f-9b09-87f0318ba0f2)
+
+
+
+
+# Full Stack E-Commerce App Documentation
+
+This documentation provides a comprehensive guide to understand and work with a full-stack e-commerce application built using React, Redux, React Router, Material-UI, and Axios. The application allows users to view and filter products, see product details, and interact with a responsive user interface.
+
+
+
+## Project Overview
+
+This e-commerce app is designed to showcase products, provide detailed information about each product, and allow users to filter and sort products based on various criteria. The project is developed using React for the frontend, Redux for state management, React Router for navigation, and Material-UI for styling and UI components.
+
+
+## Getting Started
+
+1. Clone the repository: `git clone <repository-url>`
+2. Navigate to the project directory: `cd <project-folder>`
+3. Install dependencies: `npm install`
+4. Run the development server: `npm start`
+
+## Components
+
+### App Component
+
+The `App` component serves as the entry point for the application. It provides the main layout and renders the `ProductList` component within a `Router` for navigation.
+
+### ProductList Component
+
+The `ProductList` component displays a list of products, allows filtering and sorting, and renders the `ProductCard` components. It also utilizes the `FilterDrawer` component to manage filter options.
+
+### ProductDetails Component
+
+The `ProductDetails` component displays detailed information about a selected product. It fetches product data using Axios based on the `productId` parameter.
+
+### ProductCard Component
+
+The `ProductCard` component displays a single product's basic information, including its image, title, price, and rating. It is used within the `ProductList` component to represent each product.
+
+### FilterDrawer Component
+
+The `FilterDrawer` component provides filter options for the user, including category selection, price range adjustment, and sorting preferences. It is used within the `ProductList` component to manage filters.
+
+## Redux Setup
+
+### Store Configuration
+
+The Redux store is configured in the `store.js` file using the `createStore` function from the `redux` library. Thunk middleware is applied to enable asynchronous actions.
+
+### Reducers and Actions
+
+The `reducers.js` file contains the root reducer function that handles state changes based on different actions. The `action.js` file defines actions such as fetching products and updating the state.
+
+## API Integration
+
+The app integrates with the Fake Store API to fetch product data. Axios is used to make asynchronous requests and retrieve the list of products and detailed information for a specific product.
+
+## Styling
+
+The app's user interface is styled using Material-UI components and custom CSS. Responsive design is implemented to ensure a seamless experience across different screen sizes.
+
+## Running the Application
+
+1. Install dependencies: `npm install`
+2. Start the development server: `npm start`
+3. Access the app in a web browser at `http://localhost:3000`
+
+## Conclusion
+
+This documentation provides a thorough understanding of the full-stack e-commerce application's structure, components, Redux setup, API integration, and styling. By following the steps outlined in the "Getting Started" section, you can set up and run the application to explore its features and functionalities.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
