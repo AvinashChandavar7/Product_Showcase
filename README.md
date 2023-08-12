@@ -62,16 +62,6 @@ This documentation provides a comprehensive guide to understand and work with a 
 - The app integrates with the Fake Store API to fetch product data.
 - Axios is used to make asynchronous requests and retrieve the list of products and detailed information for a specific product.
 
-## Running the Application
-
-1. Install dependencies: `npm install`
-2. Start the development server: `npm start`
-3. Access the app in a web browser at `http://localhost:3000`
-
-## Conclusion
-
-This documentation provides a thorough understanding of the full-stack e-commerce application's structure, components, Redux setup, API integration, and styling. By following the steps outlined in the "Getting Started" section, you can set up and run the application to explore its features and functionalities.
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
